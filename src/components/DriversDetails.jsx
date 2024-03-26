@@ -3,7 +3,7 @@ import React from 'react'
 const DriversDetails = () => {
     return (
         <div className='border-[1.5px] p-4 rounded-lg'>
-            <div className="w-2/3 ">
+            <div className="lg:w-2/3 ">
                 <h2 className="text-2xl font-bold mb-4">Main driver's details</h2>
                 <form >
                     <div className="mb-4">

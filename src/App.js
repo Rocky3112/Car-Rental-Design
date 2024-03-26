@@ -3,7 +3,7 @@ import HeadingSection from "./components/HeadingSection";
 
 function App() {
   return (
-    <div className="w-10/12 mx-auto py-5">
+    <div className="lg:w-10/12 mx-auto py-5 px-5">
       <HeadingSection></HeadingSection>
       <CheckoutSection></CheckoutSection>
       

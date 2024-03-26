@@ -18,8 +18,8 @@ const TermsCondition = () => {
             <p className='text-xl font-bold pb-4'>Terms and conditions</p>
                 <h3 className='text-sm'>By clicking ‘Book now’, you are confirming that you have read, understood and accepted our <span className='text-blue-500 cursor-pointer hover:underline'>Terms of service</span> and the <span className='text-blue-500 cursor-pointer hover:underline'>Budget rental terms</span>.</h3>   
         </div>
-        <div className='text-end'>
-            <button className='text-lg font-bold px-5 py-3 rounded-md bg-green-600 hover:bg-green-700 text-white'>Book Now</button>
+        <div className='text-end '>
+            <button className=' w-full lg:w-36 text-lg font-bold px-5 py-3 rounded-md bg-green-600 hover:bg-green-700 text-white'>Book Now</button>
         </div>
     </div>
   )

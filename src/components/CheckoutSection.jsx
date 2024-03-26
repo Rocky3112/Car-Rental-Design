@@ -12,6 +12,7 @@ import BillingAddress from './BillingAddress';
 import PaymentPart from './PaymentPart';
 import TermsCondition from './TermsCondition';
 import './CheckoutSection.css'; 
+import Rightside from './Rightside';
 
 const CheckoutSection = () => {
     return (
@@ -21,8 +22,8 @@ const CheckoutSection = () => {
                 <h2 className='text-3xl font-bold py-2'>Checkout</h2>
                 <h4>Next... Confirmation</h4>
             </div>
-            <div className='flex gap-5'>
-                <div className='w-[70%]'>
+            <div className='lg:flex gap-5'>
+                <div className='lg:w-[70%]'>
                     <div className='grid grid-cols-3 gap-5'>
                         <div className="divider divider-primary"></div>
                         <div className="divider divider-primary"></div>
@@ -38,14 +39,14 @@ const CheckoutSection = () => {
                         </div>
                     </div>
                     <div className=' my-5 rounded-md p-2 border-[1.5px]'>
-                        <div className='flex gap-10'>
+                        <div className='lg:flex gap-10'>
                             <figure>
                                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9qvKvmXKXB2ibBRashkWx4HVNF_JN7_CQM6YgmwFjM1dr_hYRaQVi7pP3Z_-NQIYc_RU&usqp=CAU" alt="" />
                             </figure>
                             <div>
                                 <h2 className='text-2xl font-bold'>Renult Clio <small className='text-base font-normal'>or similar small car</small></h2>
                                 <div>
-                                    <div className='flex items-center gap-16 pt-4'>
+                                    <div className='flex items-center gap-16 pt-4 lg:text-base text-sm'>
                                         <div>
                                             <h2 className='flex items-center gap-2 py-2'><FaRegUser /> 4 Seats</h2>
                                             <h2 className='flex items-center gap-2 '><PiBagSimpleDuotone /> 1 Large bag <RxTimer /></h2>
@@ -81,11 +82,10 @@ const CheckoutSection = () => {
                     <PaymentPart />
                     <TermsCondition />
                 </div>
-                <div className='w-[30%] sidebar'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus est minima non modi, nemo explicabo veniam incidunt officia. Quod, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia dolores aperiam perferendis, distinctio voluptate ex assumenda quibusdam tempore ullam adipisci, totam alias id voluptatum sint delectus officia praesentium autem ab, commodi consequatur eum! Dolores ea tempora repellendus quisquam quasi quibusdam officiis dolorum velit culpa saepe nisi laborum odit porro optio distinctio, quod deleniti. Fugiat adipisci, obcaecati quos tempore cupiditate aut maiores veniam corporis eos eligendi hic velit at! In commodi deleniti doloribus illum corrupti tenetur, rem possimus sunt eos est totam cum impedit. Aliquam et rerum ducimus vel, iste temporibus saepe! Facere adipisci exercitationem ullam dolore ipsam in quasi laborum.
+                <div className='lg:w-[30%] sidebar lg:mt-8'>
+                    <Rightside></Rightside>
                 </div>
             </div>
-            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima impedit sed eligendi ex aliquam quod fuga explicabo tempore. Harum incidunt ab consectetur voluptates earum inventore culpa ad veritatis totam delectus rem in soluta, magni officiis ea, explicabo ex? Architecto vero minima sit officiis consectetur praesentium harum quos cupiditate, eius voluptates ut minus ipsum quaerat, repellat vitae officia atque eum quam dolore quas eaque molestias quasi. Cupiditate magnam itaque quos exercitationem deleniti impedit doloremque consequatur, corporis non cum provident perferendis, facilis ut dolorem? Aliquid nihil, explicabo neque suscipit reprehenderit dolore dicta soluta error rerum? Iste cumque ab, </div>
         </div>
     )
 }

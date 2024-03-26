@@ -6,7 +6,7 @@ const PaymentPart = () => {
 
     return (
         <div className='border-[1.5px] p-4 rounded-lg my-5'>
-            <div className="w-2/3 ">
+            <div className="lg:w-2/3 ">
                 <h2 className="text-2xl font-bold mb-4">How would you like to pay?</h2>
                 <form >
                     <div className="mb-4">

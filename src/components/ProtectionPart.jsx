@@ -35,11 +35,11 @@ const ProtectionPart = () => {
                 </div>
             </div>
             <div className='flex items-center justify-between pt-5'>
-                <div>
+                <div className='lg:text-base text-sm'>
                     <h4>Exclusions apply</h4>
-                    <h2 className='text-lg text-blue-500'>Protection Terms</h2>
+                    <h2 className='lg:text-lg text-blue-500'>Protection Terms</h2>
                 </div>
-                <button className='border border-blue-500 rounded-md  px-14 py-3 hover:bg-blue-200 cursor-pointer font-semibold'>Add Full Protection</button>
+                <button className='border border-blue-500 rounded-md  lg:px-14 px-4 py-3 hover:bg-blue-200 cursor-pointer font-semibold'>Add Full Protection</button>
             </div>
         </div>
     )

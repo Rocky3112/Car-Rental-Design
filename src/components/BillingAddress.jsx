@@ -3,7 +3,7 @@ import React from 'react'
 const BillingAddress = () => {
     return (
         <div className='border-[1.5px] p-4 rounded-lg'>
-            <div className="w-2/3 ">
+            <div className="lg:w-2/3 ">
                 <h2 className="text-2xl font-bold mb-4">Billing Address</h2>
                 <form >
 
