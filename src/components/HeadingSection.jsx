@@ -3,7 +3,7 @@ import { FaAngleRight } from "react-icons/fa6";
 
 const HeadingSection = () => {
     return (
-        <div >
+        <div className='' >
             <div className='flex items-center gap-10 border-[1.5px] p-2 rounded-md'>
                 <div>
                     <h2 className='text-lg font-bold py-1'>Paris - Neuilly Sur Seine</h2>
